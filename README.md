@@ -137,7 +137,7 @@ Authorization: Bearer <JWT_TOKEN>
 - Pagination for Users and Admin Orders
 - Reusable `requireOwnerOrAdmin` middleware
 - Global error handling with custom `HttpError`
-- Prisma error handling
+- Prisma error handling (known database errors)
 - Async controller wrapper (`asyncHandler`)
 - CORS enabled
 - ESLint and Prettier configured
